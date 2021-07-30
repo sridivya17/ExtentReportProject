@@ -8,6 +8,7 @@ public class BeforeAfterMethodPgm {
 	@BeforeMethod
 	public void beforeMethod() {
 		System.out.println("I am in Before Method in git ");
+		System.out.println("Change made for the third commit");
 	}
 	@Test
 	public void testMethod() {

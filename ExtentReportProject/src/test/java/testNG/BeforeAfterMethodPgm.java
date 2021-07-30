@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class BeforeAfterMethodPgm {
 	@BeforeMethod
 	public void beforeMethod() {
-		System.out.println("I am in Before Method");
+		System.out.println("I am in Before Method in git ");
 	}
 	@Test
 	public void testMethod() {
@@ -16,7 +16,7 @@ public class BeforeAfterMethodPgm {
 	
 	@AfterMethod
 	public void afterMethod() {
-		System.out.println("I am in After Method");
+		System.out.println("I am in After Method in git");
 	}
 	
 	
